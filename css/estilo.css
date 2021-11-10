@@ -7,6 +7,7 @@
     background-color: #121212;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
+    text-decoration: none; 
 }
 
 form {
@@ -137,4 +138,15 @@ td:nth-child(6) {
 
 td:nth-child(7) {
     width: 10%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+footer i {
+    padding-left: 5px;
 }

@@ -23,6 +23,8 @@ if (isset($_GET['id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link icone -->
     <link rel="stylesheet" href="../css/estilo.css">
+    <!-- link fontawesome "icones" -->
+    <script src="https://kit.fontawesome.com/19e27bbf66.js" crossorigin="anonymous"></script>
     <title>Editar Registro</title>
 </head>
 
@@ -76,6 +78,9 @@ if (isset($_GET['id'])) {
 
         <!-- tabela de clientes -->
         <a href="../index.php">Lista de Clientes</a>
+        <footer>
+            <a target="_black" href="https://github.com/ericrq">Desenvolvido Por Eric On<i class="fa fa-github"></i></a>
+        </footer>
 </body>
 
 </html>
