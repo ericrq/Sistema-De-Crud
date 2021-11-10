@@ -7,4 +7,8 @@
 
 # Interface Para Adicionar Clientes Usando Um Formulario
 
-<img src="img/form.jpg" alt="formulario crud">
+<img src="img/form_editar.jpg" alt="formulario crud">
+
+# Interface Para Editar Um Clientes Ja existente
+
+<img src="img/form_editar.jpg" alt="formulario crud">
