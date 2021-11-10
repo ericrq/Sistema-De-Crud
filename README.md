@@ -1,7 +1,7 @@
 # Sistema-De-Crud
  Sistema De Crud Criado Em PHP e MYSQL
 
-# Interface Principal Do Crud, Mostrando Alguns Registros Base
+# Interface Principal, Mostrando Alguns Registros Base
 
 <img src="img/table_crud.jpg" alt="tabela crud">
 
