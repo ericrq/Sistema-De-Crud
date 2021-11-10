@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+    background-color: #121212;
+    caret-color: rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+}
+
+form {
+    background-color: #121212;
+    color: white;
+    width: 20%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voltar_form {
+    background-color: #121212;
+    margin-top: 30px;
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+    padding: 10px;
+    height: 30px;
+    width: 170px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    padding-top: 10px;
+    background-color: #121212;
+}
+
+p {
+    text-align: center;
+    font-size: 12pt;
+    background-color: #121212;
+}
+
+input {
+    border: 1px;
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    background-color: #121212;
+    border: 1px solid #cacaca;
+    padding-left: 3px;
+}
+
+::placeholder {
+    color: #ffffffbb;
+    text-align: center;
+}
+
+textarea {
+    border: 1px solid #cacaca;
+    width: 100%;
+    height: 100px;
+    border-radius: 5px;
+    background-color: #121212;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+
+select,
+option {
+    border: 1px solid #cacaca;
+    border-radius: 5px;
+}
+
+button,
+input[type="submit"] {
+    margin-top: 30px;
+    border-radius: 5px;
+    width: 30%;
+    height: 100%;
+    padding: 4.5px;
+    background-color: #121212;
+    border: 1px solid #cacaca;
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    margin-top: 20px;
+    width: 80%;
+    border: 1px solid #cacaca;
+    border-collapse: collapse;
+    border-collapse: none;
+    text-align: center;
+}
+
+td {
+    border: 1px solid #cacaca;
+    padding: 5px;
+}
+
+th {
+    border: 1px solid #cacaca;
+    background: cacaca;
+    padding: 5px;
+}
+
+td:first-child {
+    width: 10%;
+}
+
+td:nth-child(2) {
+    width: 10%;
+}
+
+td:nth-child(3) {
+    width: 20%;
+}
+
+td:nth-child(4) {
+    width: 10%;
+}
+
+td:nth-child(5) {
+    width: 10%;
+}
+
+td:nth-child(6) {
+    width: 30%;
+}
+
+td:nth-child(7) {
+    width: 10%;
+}
