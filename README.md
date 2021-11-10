@@ -3,8 +3,8 @@
 
 # Interface Principal, Mostrando Alguns Registros Base
 
-<img src="img/table_crud.jpg" alt="tabela crud">
+<img src="img/table.jpg" alt="tabela crud">
 
 # Interface Para Adicionar Clientes Usando Um Formulario
 
-<img src="img/formulario_crud.jpg" alt="formulario crud">
+<img src="img/form.jpg" alt="formulario crud">
