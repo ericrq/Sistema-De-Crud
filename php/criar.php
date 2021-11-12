@@ -1,7 +1,6 @@
 <?php
 // conexao com o banco mysql
 require_once '../php/conexao.php';
-date_default_timezone_set("UTC");
 
 // se existir o post
 if (isset($_POST['btn-cadastrar'])) {
