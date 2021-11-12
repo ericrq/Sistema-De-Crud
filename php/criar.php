@@ -1,7 +1,6 @@
 <?php
 // conexao com o banco mysql
 require_once '../php/conexao.php';
-date_default_timezone_set("UTC");
 
 // se existir o post
 if (isset($_POST['btn-cadastrar'])) {
@@ -13,7 +12,7 @@ if (isset($_POST['btn-cadastrar'])) {
     $email = $_POST['email'];
     $defeito = $_POST['defeito'];
     $id_produto = $_POST['id_produto'];
-    // pega a data atual e inserindo no banco de dados
+    // pega a data e hora do momento do cadastro
     $dh_atual = date('Y-m-d,h:m:s');
     
     if ($id_produto != '') {

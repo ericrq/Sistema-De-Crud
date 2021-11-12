@@ -55,10 +55,13 @@ if (isset($_GET['id'])) {
         <label for="defeito">Defeito:</label>
         <textarea name="defeito" id="defeito" cols="30" rows="10" placeholder="Descreva o Defeito Do Equipamento"><?php echo $clientes['defeito']; ?></textarea><br>
 
+        <!-- select responsivo dependendo que campos tem no banco sql -->
         <select name="id_produto">
             <?php
+            //comando sql para selecionar os campos
             $sql = "SELECT * FROM produto";
             $resultado = mysqli_query($connection, $sql);
+            //enquanto existir registros dentro da tabela
             while ($produtos = mysqli_fetch_array($resultado)) {
 
                 if ($produtos['id_produto'] == $clientes['id_produto']) {
@@ -78,6 +81,7 @@ if (isset($_GET['id'])) {
 
         <!-- tabela de clientes -->
         <a href="../index.php">Lista de Clientes</a>
+        <!-- ad -->
         <footer>
             <a target="_black" href="https://github.com/ericrq">Desenvolvido Por Eric On<i class="fa fa-github"></i></a>
         </footer>

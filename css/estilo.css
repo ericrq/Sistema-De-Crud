@@ -1,3 +1,4 @@
+/* configs gerais */
 * {
     margin: 0;
     padding: 0;
@@ -7,9 +8,10 @@
     background-color: #121212;
     caret-color: rgb(255, 255, 255);
     color: rgb(255, 255, 255);
-    text-decoration: none; 
+    text-decoration: none;
 }
 
+/* config gerais dos formularios */
 form {
     background-color: #121212;
     color: white;
@@ -21,6 +23,7 @@ form {
     align-items: center;
 }
 
+/* btn especifico d voltar para a tabela tando nos formularios */
 .voltar_form {
     background-color: #121212;
     margin-top: 30px;
@@ -29,12 +32,12 @@ form {
     padding: 10px;
     height: 30px;
     width: 170px;
-    text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* config titulos */
 h1 {
     text-align: center;
     font-size: 30pt;
@@ -42,14 +45,15 @@ h1 {
     background-color: #121212;
 }
 
+/* config p */
 p {
     text-align: center;
     font-size: 12pt;
     background-color: #121212;
 }
 
+/* config inputs gerais */
 input {
-    border: 1px;
     width: 100%;
     height: 25px;
     border-radius: 5px;
@@ -58,27 +62,30 @@ input {
     padding-left: 3px;
 }
 
+/* config placeholder */
 ::placeholder {
     color: #ffffffbb;
     text-align: center;
 }
 
+/* config campo area */
 textarea {
     border: 1px solid #cacaca;
     width: 100%;
     height: 100px;
     border-radius: 5px;
     background-color: #121212;
-    padding-left: 3px;
-    padding-top: 3px;
+    padding: 3px 3px 0 0;
 }
 
+/* config select  e opticon */
 select,
 option {
     border: 1px solid #cacaca;
     border-radius: 5px;
 }
 
+/* config botoes */
 button,
 input[type="submit"] {
     margin-top: 30px;
@@ -92,12 +99,12 @@ input[type="submit"] {
     cursor: pointer;
 }
 
+/* config tabela */
 table {
     margin-top: 20px;
     width: 80%;
     border: 1px solid #cacaca;
     border-collapse: collapse;
-    border-collapse: none;
     text-align: center;
 }
 
@@ -106,12 +113,7 @@ td {
     padding: 5px;
 }
 
-th {
-    border: 1px solid #cacaca;
-    background: cacaca;
-    padding: 5px;
-}
-
+/* tamanhos dos campos */
 td:first-child {
     width: 10%;
 }
@@ -140,6 +142,7 @@ td:nth-child(7) {
     width: 10%;
 }
 
+/* config ad */
 footer {
     display: flex;
     flex-direction: column;

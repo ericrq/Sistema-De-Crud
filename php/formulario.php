@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- link css -->
     <link rel="stylesheet" href="../css/estilo.css">
-     <!-- link fontawesome "icones" -->
-     <script src="https://kit.fontawesome.com/19e27bbf66.js" crossorigin="anonymous"></script>
+    <!-- link fontawesome "icones" -->
+    <script src="https://kit.fontawesome.com/19e27bbf66.js" crossorigin="anonymous"></script>
     <title>Formulario de cadastramento</title>
 </head>
 
@@ -35,7 +35,9 @@
         <label for="defeito">Defeito:</label>
         <textarea name="defeito" id="defeito" cols="30" rows="10" placeholder="Descreva o Defeito Do Equipamento"></textarea><br>
         <?php
+        // conexao mysql
         require_once '../php/conexao.php';
+        // comando select sql
         $sql = "SELECT * FROM produto";
         $resultado = mysqli_query($connection, $sql);
         ?>
@@ -55,6 +57,7 @@
         <input type="submit" name="btn-cadastrar" value="Cadastrar"><br>
         <!-- link indo para a tabela de clientes ja registrados -->
         <a href="../index.php">Lista de Clientes</a>
+        <!-- ad -->
         <footer>
             <a target="_black" href="https://github.com/ericrq">Desenvolvido Por Eric On<i class="fa fa-github"></i></a>
         </footer>

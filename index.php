@@ -63,6 +63,7 @@
     </table>
     <!-- link para o formulario -->
     <a class="voltar_form" href="php/formulario.php">Adicionar Cliente</a>
+    <!-- ad -->
     <footer>
         <a target="_black" href="https://github.com/ericrq">Desenvolvido Por Eric On<i class="fa fa-github"></i></a>
     </footer>

@@ -12,7 +12,7 @@ if (isset($_GET['id'])) {
 
     //executa o comando sql
     if (mysqli_query($connection, $sql)) {
-        //volta para a tabela
+        //volta para a tabela se n houver erro
         header("Location:../index.php");
     } else {
         echo 'error ao deletar';
